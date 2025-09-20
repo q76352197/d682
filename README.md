@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ### B1 Candidate Algorithms
 We looked at three model families. Gradient‑Boosted Decision Trees (GBDT) add many small decision trees together so each one fixes the mistakes of the last. Long Short‑Term Memory (LSTM) networks are sequence models that can remember patterns across time. A spatio‑temporal graph model treats locations as nodes and lets information move across space and time. Each model builds in different assumptions about how data behaves (a hypothesis space), which changes bias and variance (Russell & Norvig, 2020).
@@ -23,3 +24,6 @@ Next steps include richer time features (more lags, rolling means, trend flags),
 ### E. Sources
 Russell, S., & Norvig, P. (2020). Artificial Intelligence: A Modern Approach (4th ed.). Pearson.
 
+=======
+# d682
+>>>>>>> 73de73886ee11236e434c6778937857e1b9f1d18
