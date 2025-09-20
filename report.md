@@ -1,5 +1,3 @@
-### Introduction
-This report explains a simple baseline that predicts PM2.5 and HealthRiskScore with the DQN1 dataset. We follow basic supervised learning steps: make features, keep the last part of the timeline for testing, and judge the model with clear metrics (Russell & Norvig, 2020).
 
 ### B1 Candidate Algorithms
 We looked at three model families. Gradient‑Boosted Decision Trees (GBDT) add many small decision trees together so each one fixes the mistakes of the last. Long Short‑Term Memory (LSTM) networks are sequence models that can remember patterns across time. A spatio‑temporal graph model treats locations as nodes and lets information move across space and time. Each model builds in different assumptions about how data behaves (a hypothesis space), which changes bias and variance (Russell & Norvig, 2020).
@@ -25,5 +23,3 @@ Next steps include richer time features (more lags, rolling means, trend flags),
 ### E. Sources
 Russell, S., & Norvig, P. (2020). Artificial Intelligence: A Modern Approach (4th ed.). Pearson.
 
-### F. Professional Communication
-This report keeps the goal, method, results, and next steps short and clear, and links choices to standard AI practice (Russell & Norvig, 2020).
